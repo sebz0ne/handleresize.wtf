@@ -214,7 +214,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 	local RESETALL = Instance.new('ImageButton')
 	RESETALL.Name = "RESETALL"
 	RESETALL.Parent = S13
-	RESETALL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	RESETALL.BackgroundColor3 = Color3.fromRGB(255, 0,0)
 	RESETALL.BackgroundTransparency = 1.000
 	RESETALL.BorderSizePixel = 0
 	RESETALL.Position = UDim2.new(0.621510208, 0, 0.730036497, 0)
@@ -225,7 +225,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 	COLORPALLETE.Name = "COLORPALLETE"
 	COLORPALLETE.Parent = PCR_1
 	COLORPALLETE.AnchorPoint = Vector2.new(0.5, 0.5)
-	COLORPALLETE.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+	COLORPALLETE.BackgroundColor3 = Color3.fromRGB(255, 0,0)
 	COLORPALLETE.BackgroundTransparency = 1.000
 	COLORPALLETE.BorderSizePixel = 0
 	COLORPALLETE.ClipsDescendants = true
@@ -236,7 +236,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 
 	ANIMATEFRAME01.Name = "ANIMATEFRAME01"
 	ANIMATEFRAME01.Parent = COLORPALLETE
-	ANIMATEFRAME01.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ANIMATEFRAME01.BackgroundColor3 = Color3.fromRGB(255, 0,0)
 	ANIMATEFRAME01.Position = UDim2.new(-0.0257352963, 0, -0.00666669384, 0)
 	ANIMATEFRAME01.Size = UDim2.new(0, 285, 0, 159)
 	ANIMATEFRAME01.ZIndex = 99
@@ -244,7 +244,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 
 	Holder.Name = "Holder"
 	Holder.Parent = COLORPALLETE
-	Holder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Holder.BackgroundColor3 = Color3.fromRGB(255, 0,0)
 	Holder.BackgroundTransparency = 1.000
 	Holder.BorderSizePixel = 0
 	Holder.Size = UDim2.new(0, 283, 0, 157)
@@ -252,7 +252,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 	BG.Name = "BG"
 	BG.Parent = Holder
 	BG.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-	BG.BorderColor3 = Color3.fromRGB(91, 133, 197)
+	BG.BorderColor3 = Color3.fromRGB(255, 0,0)
 	BG.BorderSizePixel = 0
 	BG.Position = UDim2.new(0, 0, 0.157927245, 0)
 	BG.Size = UDim2.new(0, 272, 0, 125)
@@ -373,7 +373,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 	Upper.Parent = Holder
 	Upper.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Upper.BackgroundTransparency = 1.000
-	Upper.BorderColor3 = Color3.fromRGB(91, 133, 197)
+	Upper.BorderColor3 = Color3.fromRGB(255,0,0)
 	Upper.BorderSizePixel = 0
 	Upper.Position = UDim2.new(1.07835966e-07, 0, 0, 0)
 	Upper.Size = UDim2.new(0, 271, 0, 23)
@@ -395,8 +395,8 @@ function OpenedColor(text,ColourDisplay,Action,def)
 
 	linedecoupper.Name = "linedecoupper"
 	linedecoupper.Parent = Holder
-	linedecoupper.BackgroundColor3 = Color3.fromRGB(91, 133, 197)
-	linedecoupper.BorderColor3 = Color3.fromRGB(91, 133, 197)
+	linedecoupper.BackgroundColor3 = Color3.fromRGB(255,0,0)
+	linedecoupper.BorderColor3 = Color3.fromRGB(255,0,0)
 	linedecoupper.BorderSizePixel = 0
 	linedecoupper.Position = UDim2.new(0, 0, 0.150589287, 0)
 	linedecoupper.Size = UDim2.new(0.961130738, 0, 0, 1)
@@ -570,7 +570,7 @@ MAIN.ZIndex = 2
 BG.Name = "BG"
 BG.Parent = MAIN
 BG.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-BG.BorderColor3 = Color3.fromRGB(91, 133, 197)
+BG.BorderColor3 = Color3.fromRGB(255, 0,0)
 BG.BorderSizePixel = 0
 BG.Position = UDim2.new(0, 0, 0.0615355708, 0)
 BG.Size = UDim2.new(0, 588, 0, 365)
@@ -580,7 +580,7 @@ Upper.Name = "Upper"
 Upper.Parent = MAIN
 Upper.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Upper.BackgroundTransparency = 1.000
-Upper.BorderColor3 = Color3.fromRGB(91, 133, 197)
+Upper.BorderColor3 = Color3.fromRGB(255, 0,0)
 Upper.BorderSizePixel = 0
 Upper.Size = UDim2.new(0, 600, 0, 23)
 Upper.ZIndex = 2
@@ -593,8 +593,8 @@ UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 
 linedecoupper.Name = "linedecoupper"
 linedecoupper.Parent = MAIN
-linedecoupper.BackgroundColor3 = Color3.fromRGB(91, 133, 197)
-linedecoupper.BorderColor3 = Color3.fromRGB(91, 133, 197)
+linedecoupper.BackgroundColor3 = Color3.fromRGB(255,0,0)
+linedecoupper.BorderColor3 = Color3.fromRGB(255,0,0)
 linedecoupper.BorderSizePixel = 0
 linedecoupper.Position = UDim2.new(0, 0, 0.0591259636, 0)
 linedecoupper.Size = UDim2.new(1, 0, 0, 1)
@@ -604,7 +604,7 @@ DOWNER.Name = "DOWNER"
 DOWNER.Parent = MAIN
 DOWNER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 DOWNER.BackgroundTransparency = 1.000
-DOWNER.BorderColor3 = Color3.fromRGB(91, 133, 197)
+DOWNER.BorderColor3 = Color3.fromRGB(255,0,0)
 DOWNER.BorderSizePixel = 0
 DOWNER.Position = UDim2.new(0, 0, 0.943463266, 0)
 DOWNER.Size = UDim2.new(0, 600, 0, 23)
@@ -642,8 +642,8 @@ LABEL2.TextXAlignment = Enum.TextXAlignment.Right
 
 linedecoDOWNER.Name = "linedecoDOWNER"
 linedecoDOWNER.Parent = MAIN
-linedecoDOWNER.BackgroundColor3 = Color3.fromRGB(91, 133, 197)
-linedecoDOWNER.BorderColor3 = Color3.fromRGB(91, 133, 197)
+linedecoDOWNER.BackgroundColor3 = Color3.fromRGB(255,0,0)
+linedecoDOWNER.BorderColor3 = Color3.fromRGB(255,0,0)
 linedecoDOWNER.BorderSizePixel = 0
 linedecoDOWNER.Position = UDim2.new(0, 0, 0.941053629, 0)
 linedecoDOWNER.Size = UDim2.new(1, 0, 0, 1)
@@ -1191,8 +1191,8 @@ function library:AddWindow(text)
 
 		F_line.Name = "F_line"
 		F_line.Parent = Section
-		F_line.BackgroundColor3 = Color3.fromRGB(91, 133, 197)
-		F_line.BorderColor3 = Color3.fromRGB(91, 133, 197)
+		F_line.BackgroundColor3 = Color3.fromRGB(255,0,0)
+		F_line.BorderColor3 = Color3.fromRGB(255,0,0)
 		F_line.BorderSizePixel = 0
 		F_line.Position = UDim2.new(0, 0, 0.099530004, 0)
 		F_line.Size = UDim2.new(1, 0, 0, 1)
