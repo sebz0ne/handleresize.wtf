@@ -12,7 +12,7 @@ local function createInstance(class, props)
 	return inst
 end
 
-warn("v1.0.0")
+warn("v1.1.0")
 
 local function intersects (p, edge)
 	local x1, y1 = edge.a.x, edge.a.y
