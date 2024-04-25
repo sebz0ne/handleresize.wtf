@@ -1380,7 +1380,7 @@ function library:AddWindow(text)
 
 			--[Slider]--
 			local obj1 = Instance.new("Frame")
-			obj1.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.113725)
+			obj1.BackgroundColor3 = Color3.new(1,0,0)
 			obj1.BackgroundTransparency = 1
 			obj1.BorderSizePixel = 0
 			obj1.Position = UDim2.new(0.0435978472, 0, 0.255637407, 0)
