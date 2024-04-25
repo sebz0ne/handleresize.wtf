@@ -1406,7 +1406,7 @@ function library:AddWindow(text)
 
 			--[sbt]--
 			local obj3 = Instance.new("TextButton", obj1)
-			obj3.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+			obj3.BackgroundColor3 = Color3.new(1,0,0)
 			obj3.BackgroundTransparency = 1
 			obj3.BorderSizePixel = 0
 			obj3.ClipsDescendants = true
@@ -1434,15 +1434,15 @@ function library:AddWindow(text)
 			obj4.ZIndex = 23
 			obj4.ClearTextOnFocus = false
 			obj4.Font = Enum.Font.SourceSansBold
-			obj4.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+			obj4.PlaceholderColor3 = Color3.new(1,0,0)
 			obj4.Text = def
-			obj4.TextColor3 = Color3.fromRGB(90, 90, 90)
+			obj4.TextColor3 = Color3.new(1,0,0)
 			obj4.TextSize = 14.000
 			obj4.TextXAlignment = Enum.TextXAlignment.Right
 
 			--[HOLDER_3]--
 			local obj5 = Instance.new("Frame", obj1)
-			obj5.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+			obj5.BackgroundColor3 = Color3.new(1,0,0)
 			obj5.BorderSizePixel = 0
 			obj5.Position = UDim2.new(-0.002,0,0.491,0)
 			obj5.Size = UDim2.new(0, 243, 0, 13)
@@ -1451,7 +1451,7 @@ function library:AddWindow(text)
 
 			--[SFrame]--
 			local obj6 = Instance.new("Frame", obj5)
-			obj6.BackgroundColor3 = Color3.new(1, 1, 1)
+			obj6.BackgroundColor3 = Color3.new(1,0,0)
 			obj6.BorderSizePixel = 0
 			obj6.Position = UDim2.new(-0.001646191, 0, 0, 0)
 			obj6.Size = UDim2.fromScale(DefaultScale,1)
@@ -1460,15 +1460,15 @@ function library:AddWindow(text)
 
 			--[UIGradient]--
 			local obj7 = Instance.new("UIGradient", obj6)
-			obj7.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(0.345098, 0.509804, 0.752941)), ColorSequenceKeypoint.new(1, Color3.new(0.270588, 0.4, 0.592157))})
+			obj7.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(1,0,0)), ColorSequenceKeypoint.new(1, Color3.new(1,0,0))})
 
 			--[UIStroke]--
 			local obj8 = Instance.new("UIStroke", obj5)
-			obj8.Color = Color3.new(0.203922, 0.203922, 0.203922)
+			obj8.Color = Color3.new(1,0,0)
 
 			--[UIGradient]--
 			local obj9 = Instance.new("UIGradient", obj8)
-			obj9.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(1, 1, 1)), ColorSequenceKeypoint.new(1, Color3.new(0.533333, 0.533333, 0.533333))})
+			obj9.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(1,0,0)), ColorSequenceKeypoint.new(1,Color3.new(1,0,0))})
 
 			local st = def or Max/2
 			obj4.FocusLost:Connect(function(n)
@@ -2200,7 +2200,7 @@ function library:AddWindow(text)
 
 			TemplateButton.Name = "TemplateButton"
 			TemplateButton.Parent = HOLDER_2
-			TemplateButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+			TemplateButton.BackgroundColor3 = Color3.fromRGB(255, 0,0)
 			TemplateButton.BorderSizePixel = 0
 			TemplateButton.Position = UDim2.new(0.0430313908, 0, 0, 0)
 			TemplateButton.Size = UDim2.new(0, 243, 0, 21)
@@ -2215,7 +2215,7 @@ function library:AddWindow(text)
 			TextLabel.ZIndex = 15
             TextLabel.Text=Text
 			TextLabel.Font = Enum.Font.SourceSansBold
-			TextLabel.TextColor3 = Color3.fromRGB(84, 84, 84)
+			TextLabel.TextColor3 = Color3.fromRGB(255,0,0)
 			TextLabel.TextSize = 17.000
 
 			Interactive.Name = "Interactive"
@@ -2237,13 +2237,13 @@ function library:AddWindow(text)
 			local UIStroke = Instance.new('UIStroke');
 
 			UIStroke.Parent= TemplateButton;
-			UIStroke.Color = Color3.fromRGB(52,52,52);
+			UIStroke.Color = Color3.fromRGB(255,0,0)
 			UIStroke.LineJoinMode = Enum.LineJoinMode.Round;
 			UIStroke.Thickness = 1;
 			UIStroke.Transparency = 0;
 			UIStroke.Name = 'UIStroke';
 
-			UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(180, 180, 180))}
+			UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255,0,0))}
 			UIGradient.Parent = UIStroke
 
 			Interactive.MouseButton1Click:Connect(function()
