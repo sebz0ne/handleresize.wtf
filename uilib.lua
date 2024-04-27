@@ -12,8 +12,6 @@ local function createInstance(class, props)
 	return inst
 end
 
-warn("v1.1.0")
-
 local function intersects (p, edge)
 	local x1, y1 = edge.a.x, edge.a.y
 	local x2, y2 = edge.b.x, edge.b.y
@@ -216,7 +214,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 	local RESETALL = Instance.new('ImageButton')
 	RESETALL.Name = "RESETALL"
 	RESETALL.Parent = S13
-	RESETALL.BackgroundColor3 = Color3.fromRGB(255, 0,0)
+	RESETALL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	RESETALL.BackgroundTransparency = 1.000
 	RESETALL.BorderSizePixel = 0
 	RESETALL.Position = UDim2.new(0.621510208, 0, 0.730036497, 0)
@@ -227,7 +225,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 	COLORPALLETE.Name = "COLORPALLETE"
 	COLORPALLETE.Parent = PCR_1
 	COLORPALLETE.AnchorPoint = Vector2.new(0.5, 0.5)
-	COLORPALLETE.BackgroundColor3 = Color3.fromRGB(255, 0,0)
+	COLORPALLETE.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 	COLORPALLETE.BackgroundTransparency = 1.000
 	COLORPALLETE.BorderSizePixel = 0
 	COLORPALLETE.ClipsDescendants = true
@@ -238,7 +236,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 
 	ANIMATEFRAME01.Name = "ANIMATEFRAME01"
 	ANIMATEFRAME01.Parent = COLORPALLETE
-	ANIMATEFRAME01.BackgroundColor3 = Color3.fromRGB(255, 0,0)
+	ANIMATEFRAME01.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	ANIMATEFRAME01.Position = UDim2.new(-0.0257352963, 0, -0.00666669384, 0)
 	ANIMATEFRAME01.Size = UDim2.new(0, 285, 0, 159)
 	ANIMATEFRAME01.ZIndex = 99
@@ -246,7 +244,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 
 	Holder.Name = "Holder"
 	Holder.Parent = COLORPALLETE
-	Holder.BackgroundColor3 = Color3.fromRGB(255, 0,0)
+	Holder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Holder.BackgroundTransparency = 1.000
 	Holder.BorderSizePixel = 0
 	Holder.Size = UDim2.new(0, 283, 0, 157)
@@ -254,7 +252,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 	BG.Name = "BG"
 	BG.Parent = Holder
 	BG.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-	BG.BorderColor3 = Color3.fromRGB(255, 0,0)
+	BG.BorderColor3 = Color3.fromRGB(91, 133, 197)
 	BG.BorderSizePixel = 0
 	BG.Position = UDim2.new(0, 0, 0.157927245, 0)
 	BG.Size = UDim2.new(0, 272, 0, 125)
@@ -375,7 +373,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 	Upper.Parent = Holder
 	Upper.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Upper.BackgroundTransparency = 1.000
-	Upper.BorderColor3 = Color3.fromRGB(255,0,0)
+	Upper.BorderColor3 = Color3.fromRGB(91, 133, 197)
 	Upper.BorderSizePixel = 0
 	Upper.Position = UDim2.new(1.07835966e-07, 0, 0, 0)
 	Upper.Size = UDim2.new(0, 271, 0, 23)
@@ -397,8 +395,8 @@ function OpenedColor(text,ColourDisplay,Action,def)
 
 	linedecoupper.Name = "linedecoupper"
 	linedecoupper.Parent = Holder
-	linedecoupper.BackgroundColor3 = Color3.fromRGB(255,0,0)
-	linedecoupper.BorderColor3 = Color3.fromRGB(255,0,0)
+	linedecoupper.BackgroundColor3 = Color3.fromRGB(91, 133, 197)
+	linedecoupper.BorderColor3 = Color3.fromRGB(91, 133, 197)
 	linedecoupper.BorderSizePixel = 0
 	linedecoupper.Position = UDim2.new(0, 0, 0.150589287, 0)
 	linedecoupper.Size = UDim2.new(0.961130738, 0, 0, 1)
@@ -572,7 +570,7 @@ MAIN.ZIndex = 2
 BG.Name = "BG"
 BG.Parent = MAIN
 BG.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-BG.BorderColor3 = Color3.fromRGB(255, 0,0)
+BG.BorderColor3 = Color3.fromRGB(91, 133, 197)
 BG.BorderSizePixel = 0
 BG.Position = UDim2.new(0, 0, 0.0615355708, 0)
 BG.Size = UDim2.new(0, 588, 0, 365)
@@ -582,7 +580,7 @@ Upper.Name = "Upper"
 Upper.Parent = MAIN
 Upper.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Upper.BackgroundTransparency = 1.000
-Upper.BorderColor3 = Color3.fromRGB(255, 0,0)
+Upper.BorderColor3 = Color3.fromRGB(91, 133, 197)
 Upper.BorderSizePixel = 0
 Upper.Size = UDim2.new(0, 600, 0, 23)
 Upper.ZIndex = 2
@@ -595,8 +593,8 @@ UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 
 linedecoupper.Name = "linedecoupper"
 linedecoupper.Parent = MAIN
-linedecoupper.BackgroundColor3 = Color3.fromRGB(255,0,0)
-linedecoupper.BorderColor3 = Color3.fromRGB(255,0,0)
+linedecoupper.BackgroundColor3 = Color3.fromRGB(91, 133, 197)
+linedecoupper.BorderColor3 = Color3.fromRGB(91, 133, 197)
 linedecoupper.BorderSizePixel = 0
 linedecoupper.Position = UDim2.new(0, 0, 0.0591259636, 0)
 linedecoupper.Size = UDim2.new(1, 0, 0, 1)
@@ -606,7 +604,7 @@ DOWNER.Name = "DOWNER"
 DOWNER.Parent = MAIN
 DOWNER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 DOWNER.BackgroundTransparency = 1.000
-DOWNER.BorderColor3 = Color3.fromRGB(255,0,0)
+DOWNER.BorderColor3 = Color3.fromRGB(91, 133, 197)
 DOWNER.BorderSizePixel = 0
 DOWNER.Position = UDim2.new(0, 0, 0.943463266, 0)
 DOWNER.Size = UDim2.new(0, 600, 0, 23)
@@ -622,7 +620,7 @@ WEBSITE.Position = UDim2.new(0.177174687, 0, 0.499190629, 0)
 WEBSITE.Size = UDim2.new(0, 197, 0, 23)
 WEBSITE.ZIndex = 3
 WEBSITE.Font = Enum.Font.ArialBold
-WEBSITE.Text = "handleresize.wtf" 
+WEBSITE.Text = "NerdsInc.gq" 
 WEBSITE.TextColor3 = Color3.fromRGB(199, 199, 199)
 WEBSITE.TextSize = 14.000
 WEBSITE.TextXAlignment = Enum.TextXAlignment.Left
@@ -637,15 +635,15 @@ LABEL2.Position = UDim2.new(0.795508027, 0, 0.455712378, 0)
 LABEL2.Size = UDim2.new(0, 197, 0, 23)
 LABEL2.ZIndex = 3
 LABEL2.Font = Enum.Font.ArialBold
-LABEL2.Text = "ALPHA TEST"
+LABEL2.Text = "Alpha build / âˆž days left"
 LABEL2.TextColor3 = Color3.fromRGB(199, 199, 199)
 LABEL2.TextSize = 14.000
 LABEL2.TextXAlignment = Enum.TextXAlignment.Right
 
 linedecoDOWNER.Name = "linedecoDOWNER"
 linedecoDOWNER.Parent = MAIN
-linedecoDOWNER.BackgroundColor3 = Color3.fromRGB(255,0,0)
-linedecoDOWNER.BorderColor3 = Color3.fromRGB(255,0,0)
+linedecoDOWNER.BackgroundColor3 = Color3.fromRGB(91, 133, 197)
+linedecoDOWNER.BorderColor3 = Color3.fromRGB(91, 133, 197)
 linedecoDOWNER.BorderSizePixel = 0
 linedecoDOWNER.Position = UDim2.new(0, 0, 0.941053629, 0)
 linedecoDOWNER.Size = UDim2.new(1, 0, 0, 1)
@@ -1193,8 +1191,8 @@ function library:AddWindow(text)
 
 		F_line.Name = "F_line"
 		F_line.Parent = Section
-		F_line.BackgroundColor3 = Color3.fromRGB(255,0,0)
-		F_line.BorderColor3 = Color3.fromRGB(255,0,0)
+		F_line.BackgroundColor3 = Color3.fromRGB(91, 133, 197)
+		F_line.BorderColor3 = Color3.fromRGB(91, 133, 197)
 		F_line.BorderSizePixel = 0
 		F_line.Position = UDim2.new(0, 0, 0.099530004, 0)
 		F_line.Size = UDim2.new(1, 0, 0, 1)
@@ -1382,7 +1380,7 @@ function library:AddWindow(text)
 
 			--[Slider]--
 			local obj1 = Instance.new("Frame")
-			obj1.BackgroundColor3 = Color3.new(1,0,0)
+			obj1.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.113725)
 			obj1.BackgroundTransparency = 1
 			obj1.BorderSizePixel = 0
 			obj1.Position = UDim2.new(0.0435978472, 0, 0.255637407, 0)
@@ -1406,7 +1404,7 @@ function library:AddWindow(text)
 
 			--[sbt]--
 			local obj3 = Instance.new("TextButton", obj1)
-			obj3.BackgroundColor3 = Color3.new(1,0,0)
+			obj3.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
 			obj3.BackgroundTransparency = 1
 			obj3.BorderSizePixel = 0
 			obj3.ClipsDescendants = true
@@ -1434,15 +1432,15 @@ function library:AddWindow(text)
 			obj4.ZIndex = 23
 			obj4.ClearTextOnFocus = false
 			obj4.Font = Enum.Font.SourceSansBold
-			obj4.PlaceholderColor3 = Color3.new(1,0,0)
+			obj4.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
 			obj4.Text = def
-			obj4.TextColor3 = Color3.new(1,0,0)
+			obj4.TextColor3 = Color3.fromRGB(90, 90, 90)
 			obj4.TextSize = 14.000
 			obj4.TextXAlignment = Enum.TextXAlignment.Right
 
 			--[HOLDER_3]--
 			local obj5 = Instance.new("Frame", obj1)
-			obj5.BackgroundColor3 = Color3.new(1,0,0)
+			obj5.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
 			obj5.BorderSizePixel = 0
 			obj5.Position = UDim2.new(-0.002,0,0.491,0)
 			obj5.Size = UDim2.new(0, 243, 0, 13)
@@ -1451,7 +1449,7 @@ function library:AddWindow(text)
 
 			--[SFrame]--
 			local obj6 = Instance.new("Frame", obj5)
-			obj6.BackgroundColor3 = Color3.new(1,0,0)
+			obj6.BackgroundColor3 = Color3.new(1, 1, 1)
 			obj6.BorderSizePixel = 0
 			obj6.Position = UDim2.new(-0.001646191, 0, 0, 0)
 			obj6.Size = UDim2.fromScale(DefaultScale,1)
@@ -1460,15 +1458,15 @@ function library:AddWindow(text)
 
 			--[UIGradient]--
 			local obj7 = Instance.new("UIGradient", obj6)
-			obj7.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(1,0,0)), ColorSequenceKeypoint.new(1, Color3.new(1,0,0))})
+			obj7.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(0.345098, 0.509804, 0.752941)), ColorSequenceKeypoint.new(1, Color3.new(0.270588, 0.4, 0.592157))})
 
 			--[UIStroke]--
 			local obj8 = Instance.new("UIStroke", obj5)
-			obj8.Color = Color3.new(1,0,0)
+			obj8.Color = Color3.new(0.203922, 0.203922, 0.203922)
 
 			--[UIGradient]--
 			local obj9 = Instance.new("UIGradient", obj8)
-			obj9.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(1,0,0)), ColorSequenceKeypoint.new(1,Color3.new(1,0,0))})
+			obj9.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(1, 1, 1)), ColorSequenceKeypoint.new(1, Color3.new(0.533333, 0.533333, 0.533333))})
 
 			local st = def or Max/2
 			obj4.FocusLost:Connect(function(n)
@@ -2200,7 +2198,7 @@ function library:AddWindow(text)
 
 			TemplateButton.Name = "TemplateButton"
 			TemplateButton.Parent = HOLDER_2
-			TemplateButton.BackgroundColor3 = Color3.fromRGB(255, 0,0)
+			TemplateButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 			TemplateButton.BorderSizePixel = 0
 			TemplateButton.Position = UDim2.new(0.0430313908, 0, 0, 0)
 			TemplateButton.Size = UDim2.new(0, 243, 0, 21)
@@ -2215,7 +2213,7 @@ function library:AddWindow(text)
 			TextLabel.ZIndex = 15
             TextLabel.Text=Text
 			TextLabel.Font = Enum.Font.SourceSansBold
-			TextLabel.TextColor3 = Color3.fromRGB(255,0,0)
+			TextLabel.TextColor3 = Color3.fromRGB(84, 84, 84)
 			TextLabel.TextSize = 17.000
 
 			Interactive.Name = "Interactive"
@@ -2237,13 +2235,13 @@ function library:AddWindow(text)
 			local UIStroke = Instance.new('UIStroke');
 
 			UIStroke.Parent= TemplateButton;
-			UIStroke.Color = Color3.fromRGB(255,0,0)
+			UIStroke.Color = Color3.fromRGB(52,52,52);
 			UIStroke.LineJoinMode = Enum.LineJoinMode.Round;
 			UIStroke.Thickness = 1;
 			UIStroke.Transparency = 0;
 			UIStroke.Name = 'UIStroke';
 
-			UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255,0,0))}
+			UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(180, 180, 180))}
 			UIGradient.Parent = UIStroke
 
 			Interactive.MouseButton1Click:Connect(function()
